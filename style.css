@@ -1,0 +1,10 @@
+*,
+*::before,
+*::after {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(#BD0F4D,#CB2964);
+}

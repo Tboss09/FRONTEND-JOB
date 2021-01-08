@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    max-width: 100%;
+    position: relative;
+    // background: linear-gradient(to right, #BD0F4D, #CB2964);
+    background-image: -webkit-linear-gradient(180deg, #CB2964 50%, #BD0F4D 50%);
+    font-family: "poppins";
+}
+
+.header {
+    margin-top: 50px;
+
+    h1 {
+        text-align: center;
+        font-weight: 200;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 20px;
+    }
+}
+
+
+.main {
+    width: 100%;
+    margin-top: 5vh;
+
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url("https://cdn.glitch.com/f7bccf30-434a-4e79-a05b-bfea834263f4%2Faline-de-nadai-motsTck381I-unsplash.jpg?v=1610066422802");
+        height: 500px;
+        max-width: 100%;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+}
